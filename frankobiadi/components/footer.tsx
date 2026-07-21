@@ -9,22 +9,29 @@ const Footer = () => {
   return (
     <footer className="bg-black text-white">
       <div className="mx-auto max-w-7xl px-6 pt-12">
-        <div className="flex flex-col items-center gap-8">
+        <div className="flex flex-col gap-10">
+
           {/* Top */}
-          <div className="flex w-full items-center justify-between">
-            <Link href="/">
-              <Logo style="text-white" />
+          <div className="flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
+
+            {/* Logo */}
+            <Link href="/" className="flex justify-center lg:justify-start">
+              <Logo className="text-white w-8 h-auto" />
             </Link>
 
-            <div className="flex items-center gap-8">
-              <div className="flex items-center gap-4">
+            {/* Right Side */}
+            <div className="flex flex-col items-center gap-6 lg:flex-row lg:gap-8">
+
+              {/* Social Icons */}
+              <div className="flex items-center gap-5">
+
                 <Link
                   href="https://www.instagram.com/frankobiadi?igsh=djI2bHcyZWpyMXU%3D&utm_source=qr"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Instagram"
                 >
-                  <i className="bx bxl-instagram text-2xl hover:text-gray-400 transition-colors"></i>
+                  <i className="bx bxl-instagram text-2xl transition hover:text-gray-400"></i>
                 </Link>
 
                 <Link
@@ -33,7 +40,7 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   aria-label="LinkedIn"
                 >
-                  <i className="bx bxl-linkedin-square text-2xl hover:text-gray-400 transition-colors"></i>
+                  <i className="bx bxl-linkedin-square text-2xl transition hover:text-gray-400"></i>
                 </Link>
 
                 <Link
@@ -47,30 +54,39 @@ const Footer = () => {
                     alt="X"
                     width={20}
                     height={20}
-                    className="hover:opacity-70 transition-opacity"
+                    className="transition hover:opacity-70"
                   />
                 </Link>
 
-                <Link href="https://www.facebook.com/share/1MZ5uXR4uD/?mibextid=wwXIfr" 
+                <Link
+                  href="https://www.facebook.com/share/1MZ5uXR4uD/?mibextid=wwXIfr"
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Facebook">
-                  <i className="bx bxl-facebook-circle text-2xl hover:text-gray-400 transition-colors"></i>
+                  aria-label="Facebook"
+                >
+                  <i className="bx bxl-facebook-circle text-2xl transition hover:text-gray-400"></i>
                 </Link>
+
               </div>
 
-              <p className="text-sm tracking-wider">
+              {/* Email */}
+              <Link
+                href="mailto:hello@frankobiadi.com"
+                className="text-center text-sm tracking-wider break-all hover:text-gray-400 transition"
+              >
                 HELLO@FRANKOBIADI.COM
-              </p>
+              </Link>
+
             </div>
           </div>
 
-          {/* Bottom */}
-          <div className="flex justify-center w-full">
+          {/* Bottom Image */}
+          <div className="flex justify-center">
             <Image
               src={Frank}
               alt="Frank Obiadi"
               priority
+              className="w-full  sm:m h-auto object-contain"
             />
           </div>
         </div>
