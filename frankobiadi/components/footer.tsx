@@ -16,7 +16,7 @@ const Footer = () => {
 
             {/* Logo */}
             <Link href="/" className="flex justify-center lg:justify-start">
-              <Logo className="text-white w-8 h-auto" />
+              <Logo className="text-white text-xl sm:text-2xl lg:text-3xl" />
             </Link>
 
             {/* Right Side */}
