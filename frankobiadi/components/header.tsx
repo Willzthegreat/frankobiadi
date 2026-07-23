@@ -20,7 +20,7 @@ const Header = () => {
         </div>
 
         {/* Main Content */}
-        <div className="text-center">
+        <div className="text-center md:text-left">
           <h1 className="text-2xl  font-bold leading-tight md:text-4xl lg:text-5xl">
             Pan-African Venture Builder • Enterprise Architect • Ecosystem
             Builder
