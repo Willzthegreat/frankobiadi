@@ -8,9 +8,9 @@ const Header = () => {
   return (
     <section className="mx-auto grid max-w-10xl grid-cols-1 items-center gap-12 px-6 py-10 md:grid-cols-2 lg:px-12">
       {/* Left Content */}
-      <div className="grid grid-cols-1 lg:grid-cols-[1fr_6fr]">
+      <div className="grid grid-cols-1 order-2 md:order-1 md:grid-cols-[1fr_6fr]">
         {/* Intro Text */}
-        <div className="flex justify-center py-25 pt-4 md:pt-16">
+        <div className="flex justify-center hidden md:block py-25 pt-4 md:pt-16">
           <Image
             src={IntroText}
             alt="Intro Text"
@@ -20,8 +20,8 @@ const Header = () => {
         </div>
 
         {/* Main Content */}
-        <div>
-          <h1 className="text-3xl font-bold leading-tight md:text-4xl lg:text-5xl">
+        <div className="text-center">
+          <h1 className="text-2xl  font-bold leading-tight md:text-4xl lg:text-5xl">
             Pan-African Venture Builder • Enterprise Architect • Ecosystem
             Builder
           </h1>
@@ -47,8 +47,8 @@ const Header = () => {
       </div>
 
       {/* Right Image */}
-      <div className="flex justify-center">
-        <div className="relative h-64 w-64 overflow-hidden rounded-full sm:h-80 sm:w-80 lg:h-[500px] lg:w-[500px]">
+      <div className="flex justify-center order-1 md:order-2">
+        <div className="relative h-96 w-96 overflow-hidden rounded-full sm:h-80 sm:w-80 lg:h-[500px] lg:w-[500px]">
           <Image
             src={Pics}
             alt="Hero section"
