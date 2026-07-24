@@ -163,7 +163,7 @@ const ArticlesInsights = () => {
         </div>
 
         {/* Featured Content */}
-        <div className="space-y-5">
+        <div className="space-y-5 text-center md:text-start">
           <div>
             <h2 className="text-2xl font-bold leading-tight sm:text-3xl lg:text-4xl">
               Project Title: Subscriptionly App Design
@@ -190,7 +190,7 @@ const ArticlesInsights = () => {
       </div>
 
       {/* Articles Grid */}
-      <div className="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 xl:grid-cols-3">
+      <div className="mt-16 grid grid-cols-1 text-center md:text-start gap-8 sm:grid-cols-2 xl:grid-cols-3">
         {articles.map((article) => (
           <article
             key={article.id}
