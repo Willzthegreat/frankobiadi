@@ -1,5 +1,6 @@
 import AfricanGreatestOportunity from "@/components/africanGreatestOportunity";
 import ArticlesInsights from "@/components/articlesInsights";
+import Carousel from "@/components/carousel";
 import Header from "@/components/header";
 import Image from "next/image";
 
@@ -9,6 +10,7 @@ export default function Home() {
       <Header />
       <AfricanGreatestOportunity />
       <ArticlesInsights />
+      <Carousel />
     </div>
   );
 }

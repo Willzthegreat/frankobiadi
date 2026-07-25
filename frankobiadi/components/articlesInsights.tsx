@@ -182,7 +182,7 @@ const ArticlesInsights = () => {
             delight users.
           </p>
 
-          <button className="flex items-center gap-2 font-semibold text-black transition hover:text-green-600">
+          <button className="flex items-center text-center md:text-start gap-2 font-semibold text-black transition hover:text-green-600">
             VIEW CASE STUDY
             <i className="bx bx-right-arrow-alt text-xl"></i>
           </button>
