@@ -1,3 +1,4 @@
+import AboutGrid from "@/components/aboutGrid";
 import AfricanGreatestOpportunity from "@/components/africanGreatestOportunity";
 import BuildTogetherCom from "@/components/buildTogetherCom";
 import Gallery from "@/components/gallery";
@@ -23,6 +24,7 @@ const About = () => {
           </>
         }
       />
+      <AboutGrid   />
       <Gallery />
       <BuildTogetherCom showImage={false} />
     </div>
