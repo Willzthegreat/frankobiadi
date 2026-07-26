@@ -3,6 +3,7 @@ import Link from "next/link";
 import Pics from "@/public/Franks_pics.jpg";
 import IntroText from "@/public/introText.png";
 import { Button } from "@base-ui/react";
+import LetsBuildTogether from "./letsBuildTogether";
 
 const Header = () => {
   return (
@@ -35,11 +36,9 @@ const Header = () => {
           </p>
 
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">
-            <Button className="rounded-md bg-black cursor-pointer px-6 py-3 text-white transition hover:bg-gray-800">
-              Let's Build Together
-            </Button>
+           <LetsBuildTogether />
 
-            <Link className=" border-black px-6 py-3" href={"#"}>
+            <Link className=" border-black px-6 py-3" href={"/myJourney"}>
               My Journey
             </Link>
           </div>
@@ -48,7 +47,7 @@ const Header = () => {
 
       {/* Right Image */}
       <div className="flex justify-center order-1 md:order-2">
-        <div className="relative h-96 w-96 overflow-hidden rounded-full sm:h-80 sm:w-80 lg:h-[500px] lg:w-[500px]">
+        <div className="relative h-96 w-96 overflow-hidden rounded-full sm:h-80 sm:w-80 lg:h-125 lg:w-125">
           <Image
             src={Pics}
             alt="Hero section"

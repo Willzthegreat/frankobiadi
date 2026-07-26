@@ -39,12 +39,12 @@ const Gallery = () => {
   ];
 
   return (
-    <section className="mb-10 px-4 sm:px-6 lg:px-8">
-      <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3">
+    <section className="mb-10 ">
+      <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 md:grid-cols-3">
         {images.map((image, index) => (
           <div
             key={index}
-            className="overflow-hidden border "
+            className="overflow-hidden border w-120 "
           >
             <Image
               src={image.src}

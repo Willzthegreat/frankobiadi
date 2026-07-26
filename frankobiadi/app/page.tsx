@@ -1,5 +1,6 @@
 import AfricanGreatestOportunity from "@/components/africanGreatestOportunity";
 import ArticlesInsights from "@/components/articlesInsights";
+import BuildTogetherCom from "@/components/buildTogetherCom";
 import Carousel from "@/components/carousel";
 import Gallery from "@/components/gallery";
 import Header from "@/components/header";
@@ -13,6 +14,7 @@ export default function Home() {
       <ArticlesInsights />
       <Carousel />
       <Gallery />
+      <BuildTogetherCom />
     </div>
   );
 }
