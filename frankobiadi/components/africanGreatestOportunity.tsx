@@ -5,7 +5,7 @@ const AfricanGreatestOpportunity = () => {
 
   
   return (
-    <section className="flex flex-col items-center w-full justify-center bg-black px-6 py-12 text-center text-white mx-0 sm:px-8 md:px-16 lg:px-24 xl:px-32">
+    <section className="flex flex-col font-font-calibri items-center w-full justify-center bg-black px-6 py-12 text-center text-white mx-0 sm:px-8 md:px-16 lg:px-24 xl:px-32">
       <h2 className="max-w-5xl text-lg font-medium leading-relaxed sm:text-xl md:text-2xl lg:text-2xl">
         I believe Africa's greatest opportunity is not hidden beneath its
         natural resources, but within its entrepreneurs. My life's work is

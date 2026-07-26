@@ -11,7 +11,7 @@ interface LogoProps {
 export default function Logo({ className = "" }: LogoProps) {
   return (
     <Link href="/" className={`font-bold tracking-wide ${className}`}>
-      <Image src={Frank} className="w-40 " alt="Frank's Logo" />
+      <Image src={Frank} className="w-40 lg:w-50 " alt="Frank's Logo" />
     </Link>
   );
 }

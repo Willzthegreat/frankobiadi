@@ -140,7 +140,7 @@ const articles = [
 
 const ArticlesInsights = () => {
   return (
-    <section className="w-full px-4 py-10 sm:px-6 lg:px-10">
+    <section className="w-full font-font-calibri px-4 py-10 sm:px-6 lg:px-10">
       {/* Heading */}
       <div className="mb-10">
         <Image

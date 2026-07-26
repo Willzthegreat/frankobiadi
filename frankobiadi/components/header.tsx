@@ -7,7 +7,7 @@ import LetsBuildTogether from "./letsBuildTogether";
 
 const Header = () => {
   return (
-    <section className="mx-auto grid max-w-10xl grid-cols-1 items-center gap-12 px-6 py-10 md:grid-cols-2 lg:px-12">
+    <section className="mx-auto font-font-calibri grid max-w-10xl grid-cols-1 items-center gap-12 px-6 py-10 md:grid-cols-2 lg:px-12">
       {/* Left Content */}
       <div className="grid grid-cols-1 order-2 md:order-1 md:grid-cols-[1fr_6fr]">
         {/* Intro Text */}
