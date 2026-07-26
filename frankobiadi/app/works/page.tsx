@@ -4,6 +4,7 @@ import Gallery from '@/components/gallery'
 import React from 'react'
 import BuiltImage from "@/public/Company.png";
 import WorkLastingValue from '@/components/workLastingValue';
+import WorkGrid from '@/components/workGrid';
 
 const Page = () => {
   return (
@@ -22,6 +23,7 @@ const Page = () => {
           }
         />
         <WorkLastingValue  />
+        <WorkGrid />
         <Gallery />
         <BuildTogetherCom showImage={false} />
       </div>

@@ -2,8 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import Pics from "@/public/Franks_pics.jpg";
 import IntroText from "@/public/introText.png";
-import { Button } from "@base-ui/react";
 import LetsBuildTogether from "./letsBuildTogether";
+
+
+
+
 
 const Header = () => {
   return (
@@ -11,7 +14,7 @@ const Header = () => {
       {/* Left Content */}
       <div className="grid grid-cols-1 order-2 md:order-1 md:grid-cols-[1fr_6fr]">
         {/* Intro Text */}
-        <div className="flex justify-center hidden md:block py-25 pt-4 md:pt-16">
+        <div className="md:flex justify-center hidden  py-25 pt-4 md:pt-16">
           <Image
             src={IntroText}
             alt="Intro Text"
