@@ -106,7 +106,7 @@ export default function Carousel() {
       {/* Previous Button */}
       <button
         onClick={() => emblaApi?.scrollPrev()}
-        className="absolute left-3 top-1/2 z-10 flex cursor-pointer h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full bg-white shadow-lg transition hover:bg-gray-100"
+        className="absolute left-3 top-1/2 z-10 flex cursor-pointer h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full bg-white/10 shadow-lg transition hover:bg-gray-100"
       >
         ❮
       </button>
@@ -114,7 +114,7 @@ export default function Carousel() {
       {/* Next Button */}
       <button
         onClick={() => emblaApi?.scrollNext()}
-        className="absolute right-3 top-1/2 z-10 cursor-pointer flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full bg-white shadow-lg transition hover:bg-gray-100"
+        className="absolute right-3 top-1/2 z-10 cursor-pointer flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full bg-white/10 shadow-lg transition hover:bg-gray-100"
       >
         ❯
       </button>
