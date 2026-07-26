@@ -44,7 +44,7 @@ const Gallery = () => {
         {images.map((image, index) => (
           <div
             key={index}
-            className="overflow-hidden border w-120 "
+            className="overflow-hidden border lg:w-120 "
           >
             <Image
               src={image.src}
