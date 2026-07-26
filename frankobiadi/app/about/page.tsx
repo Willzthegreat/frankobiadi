@@ -8,10 +8,10 @@ const About = () => {
     <div>
       <AfricanGreatestOpportunity
         text="Building the Foundations of African Enterprise"
-        headingClassName="mt-20 text-5xl font-bold lg:text-6xl"
+        headingClassName="mt-20 md:mt-20 text-5xl font-bold lg:text-6xl"
         image={BuiltImage}
-        imageClassName="-mt-56 w-32 md:w-48 lg:w-64"
-        paragraphClassName="max-w-xl text-sm leading-9 mt-50 text-gray-100/60"
+        imageClassName="-mt-56 sm:-mt-56 w-32 md:w-48 lg:w-64"
+        paragraphClassName="max-w-xl text-sm leading-9 mt-56 text-gray-100/60"
         ptext={
           <>
             I build more than companies.
