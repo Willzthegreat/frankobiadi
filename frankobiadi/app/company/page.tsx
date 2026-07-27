@@ -22,7 +22,7 @@ const Page = () => {
             </>
           }
         />
-        <WorkLastingValue  />
+        <WorkLastingValue text="How can this create lasting value for Africa?" headText="Each company within my portfolio addresses a critical challenge while contributing to a larger vision: building the infrastructure, platforms and institutions that empower African businesses, entrepreneurs and communities to thrive." />
         <WorkGrid />
         <Gallery />
         <BuildTogetherCom showImage={false} />
