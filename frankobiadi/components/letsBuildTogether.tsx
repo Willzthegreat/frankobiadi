@@ -1,19 +1,3 @@
-// import React from 'react'
-// import Button from ""
-
-// const LetsBuildTogether = () => {
-//   return (
-//     <>
-//       <Button className="rounded-md bg-black cursor-pointer px-6 py-3 text-white transition hover:bg-gray-800">
-//         Let's Build Together
-//       </Button>
-//     </>
-//   )
-// }
-
-// export default LetsBuildTogether
-
-
 import React from "react";
 import Link from "next/link";
 
