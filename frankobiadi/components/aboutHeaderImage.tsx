@@ -93,7 +93,7 @@ const AboutHeaderImage = () => {
             />
           </div>
 
-          <p className="mt-4 md:mt-0 text-base sm:text-lg leading-7 sm:leading-8 text-gray-700">
+          <p className="mt-4 md:mt-0 text-base sm:text-lg leading-7 text-center md:text-start sm:leading-8 text-gray-700">
             Business has never been just commerce to me. It is one of
             humanity&apos;s most powerful tools for creating opportunity,
             solving meaningful problems and shaping the future of societies.
