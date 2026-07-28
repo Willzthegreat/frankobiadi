@@ -15,7 +15,7 @@ const Footer = () => {
           <div className="flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
 
             {/* Logo */}
-            <Link href="/" className="flex justify-center lg:justify-start">
+            <Link href="/" className="flex justify-center  lg:justify-start">
               <Logo  />
             </Link>
 

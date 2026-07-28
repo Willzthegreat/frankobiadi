@@ -1,9 +1,12 @@
+import BuildTogetherCom from '@/components/buildTogetherCom'
+import Gallery from '@/components/gallery'
 import React from 'react'
 
 const Page = () => {
   return (
     <>
-      <h2>Philosophy</h2>
+      <Gallery />
+      <BuildTogetherCom showImage={false} />
     </>
   )
 }
