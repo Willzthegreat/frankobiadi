@@ -12,39 +12,39 @@ import Frame5 from "@/public/Frame5.png";
 const philosophyItems = [
   {
     image: Frame,
-    title: "Principle 1",
-    description: "Description of Principle 1.",
+    title: "Build Value Before Valuation",
+    description: "The strongest businesses solve meaningful problems before they seek investment. Capital should accelerate value—not replace it.",
   },
   {
     image: Frame1,
-    title: "Principle 2",
-    description: "Description of Principle 2.",
+    title: "Think Beyond the Present",
+    description: "Great companies are built with patience, discipline and a long-term commitment to excellence.",
   },
   {
     image: Frame2,
-    title: "Principle 3",
-    description: "Description of Principle 3.",
+    title: "Partnerships Create Scale",
+    description: "Transformational growth happens through collaboration. Strong partnerships create opportunities that no organization can achieve alone.",
   },
   {
     image: Frame3,
-    title: "Principle 4",
-    description: "Description of Principle 4.",
+    title: "Innovation Must Solve Real Problems",
+    description: "Technology should simplify complexity, strengthen businesses and improve lives.",
   },
   {
     image: Frame4,
-    title: "Principle 5",
-    description: "Description of Principle 5.",
+    title: "Leadership Is Measured by Impact",
+    description: "Leadership is not defined by titles, but by the opportunities created, the people empowered and the positive change left behind.",
   },
   {
     image: Frame5,
-    title: "Principle 6",
-    description: "Description of Principle 6.",
+    title: "Build Beyond Yourself",
+    description: "True success is measured by what endures. My ambition is to build ventures, institutions and ecosystems that continue creating opportunity long after I'm gone.",
   },
 ];
 
 const PhilosophyGrid = () => {
   return (
-    <section className="w-full px-20 py-30">
+    <section className="w-full px-10 lg:px-20 py-30">
       <div className="grid grid-cols-1 gap-6 md:grid-cols-3 lg:grid-3">
         {philosophyItems.map((item) => (
           <div
