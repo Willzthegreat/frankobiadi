@@ -44,7 +44,7 @@ const philosophyItems = [
 
 const PhilosophyGrid = () => {
   return (
-    <section className="w-full px-10 lg:px-20 py-30">
+    <section className="w-full px-7 lg:px-20 py-30">
       <div className="grid grid-cols-1 gap-6 md:grid-cols-3 lg:grid-3">
         {philosophyItems.map((item) => (
           <div
