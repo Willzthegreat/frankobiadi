@@ -6,8 +6,8 @@ import frankobiadi from "@/public/franks_pics.jpeg";
 
 const Contactheader = () => {
   return (
-    <section className="w-full pl-6 pr-6 md:pr-0 pb-12 md:pl-10 lg:pl-16 lg:pb-20">
-      <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-10 md:grid-cols-2 lg:gap-16">
+    <section className="w-full  pl-6 pr-6 md:pr-0 pb-12 md:pl-10 lg:pl-16 lg:pb-20">
+      <div className="mx-auto grid max-w-7xl text-center md:text-start grid-cols-1 items-center gap-10 md:grid-cols-2 lg:gap-16">
         {/* Left Content */}
         <div className="flex flex-col gap-10">
           {/* Introduction */}

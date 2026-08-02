@@ -35,7 +35,7 @@ const ContactGrid = () => {
     <section className="w-full px-6 py-12 md:px-10 lg:px-16 lg:py-20">
       {/* Section Heading */}
       <div className="mb-10">
-        <h2 className="text-3xl font-bold leading-tight md:text-4xl">
+        <h2 className="text-3xl text-center md:text-start font-bold leading-tight md:text-4xl">
           Ways We Can Work Together
         </h2>
       </div>
