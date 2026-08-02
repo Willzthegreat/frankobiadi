@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import Frank from "@/public/frankobiadi.png";
+import Frank from "@/public/frankobiadi1.png";
 import LogoX from "@/public/X_logo_2023.png";
 import Logo from "./logo";
 
